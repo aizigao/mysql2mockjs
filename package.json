@@ -1,0 +1,24 @@
+{
+  "name": "mysql2mockjs",
+  "version": "0.0.1",
+  "description": "transform mysql table stucture to mockjs data like",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "aizigao",
+    "email": "weixiangzhe@live.com"
+  },
+  "repository": "aizigao/mysql2mockjs/mysql2mockjs",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.16.0",
+    "typescript": "^3.3.3"
+  },
+  "license": "MIT"
+}
